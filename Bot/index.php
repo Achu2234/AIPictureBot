@@ -59,22 +59,22 @@ Alvi('sendMessage',[
 'reply_to_message_id'=>$message_id,
 ]);
 }
-if($msg == "/start" or $msg == "/start@TheLilyBot"){
+if($msg == "/start" or $msg == "/start@Yunogasaichatbot"){
 Alvi('sendMessage',[
 'chat_id'=>$chat_id,
 'text'=>"***Hey  👋 $first_name,
 
-I'm Lily! A powerfull AI Bot.
+I'm Yuno Gasai! A powerfull Anime Theme AI Bot.
 
 I will resopnd to any image you send. Send me a image to me, I will say what is That😜
 
-Also add me to your group and make me admin. I'll reply to every photo. I was made by @HARP_Chat Join and support us෴.
-Credits - @IndusBots 🌝***",
+Also add me to your group and make me admin. I'll reply to every photo. I was made by @Animemusicarchive6J oin and support us෴.
+Code Ownner - @Amalbiju154 🌝***",
 'reply_to_message_id'=>$message_id,
 'parse_mode'=>"MarkDown",
 'reply_markup' =>  json_encode([
 'inline_keyboard' => [
-[['text' => "SUPPORT",'url' => "https://telegram.me/HARP_Tech"],['text' => "CREATOR", 'url' => "https://telegram.me/Official_Bawwa"]],
+[['text' => "Updates",'url' => "@Animemusicarchive6"],['text' => "CREATOR", 'url' => "https://t.me/Amalbiju154"]],
 [['text' => "ADD ME", 'url' => "https://telegram.me/$BOT_USERNAME?startgroup=False"]], 
 ]])
 ]);
